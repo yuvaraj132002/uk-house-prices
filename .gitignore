@@ -1,0 +1,7 @@
+Raw/
+Clean/
+*.csv
+.idea/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
