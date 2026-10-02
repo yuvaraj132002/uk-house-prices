@@ -15,8 +15,8 @@ def load_model():
 
 @st.cache_data
 def load_data():
-    lookup = pd.read_csv(BASE / "app" / "data" / "district_lookup.csv")
-    trend = pd.read_csv(BASE / "app" / "data" / "district_trend.csv")
+    lookup = pd.read_csv(BASE / "app" / "Data" / "district_lookup.csv")
+    trend = pd.read_csv(BASE / "app" / "Data" / "district_trend.csv")
     return lookup, trend
 
 model, categories = load_model()
